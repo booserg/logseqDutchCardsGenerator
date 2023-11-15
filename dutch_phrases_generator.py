@@ -3,8 +3,8 @@ import pyttsx3
 from unidecode import unidecode
 import re
 
-logseq_source_page = r"C:\Users\syevt\iCloudDrive\iCloud~com~logseq~logseq\flow\pages\Test page 1.md"
-logseq_storage = r"C:\Users\syevt\iCloudDrive\iCloud~com~logseq~logseq\flow\assets"
+logseq_source_page = r"C:\Users\SergeyYevtushik\iCloudDrive\iCloud~com~logseq~logseq\flow\pages\Duolingo. Unit 1 phrases.md"
+logseq_storage = r"C:\Users\SergeyYevtushik\iCloudDrive\iCloud~com~logseq~logseq\flow\assets"
 
 assets_folder_name = logseq_source_page.split('\\')[-1]
 assets_folder_name = assets_folder_name.split('.')[0]
